@@ -33,8 +33,11 @@ func ConvertToHeaderUpdates(header dpfm_api_input_reader.Header) *HeaderUpdates 
 		Tag4:                          data.Tag4,
 		DistributionProfile:           data.DistributionProfile,
 		PointConditionType:            data.PointConditionType,
+		QuestionnaireType:			   data.QuestionnaireType,
+		QuestionnaireTemplate:		   data.QuestionnaireTemplate,
 		LastChangeDate:                data.LastChangeDate,
 		LastChangeTime:                data.LastChangeTime,
+		LastChangeUser:				   data.LastChangeUser,
 	}
 }
 

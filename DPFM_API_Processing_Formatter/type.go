@@ -26,8 +26,11 @@ type HeaderUpdates struct {
 	Tag4							*string	`json:"Tag4"`
 	DistributionProfile				string	`json:"DistributionProfile"`
 	PointConditionType				string	`json:"PointConditionType"`
+	QuestionnaireType				*string `json:"QuestionnaireType"`
+	QuestionnaireTemplate			*string `json:"QuestionnaireTemplate"`
 	LastChangeDate					string	`json:"LastChangeDate"`
 	LastChangeTime					string	`json:"LastChangeTime"`
+	LastChangeUser					int		`json:"LastChangeUser"`
 }
 
 type PartnerUpdates struct {

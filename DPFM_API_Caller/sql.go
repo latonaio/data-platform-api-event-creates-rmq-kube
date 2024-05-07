@@ -771,7 +771,7 @@ func (c *DPFMAPICaller) UpdateLatestNumber(
 			UPDATE data_platform_number_range_latest_number_data SET LatestNumber=(?)
 			WHERE (ServiceLabel, FieldNameWithNumberRange) = (?, ?);`,
 		eventIssuedID,
-		"Event",
+		"EVENT",
 		"Event",
 	)
 	if err != nil {
